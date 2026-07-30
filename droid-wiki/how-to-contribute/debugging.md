@@ -10,7 +10,7 @@ Every composed orchestration run produces a forensic log file at the repo root w
 gh-init-<slug>-<UTC-timestamp>.log
 ```
 
-For example: `gh-init-intel-agency-agent-context-20250724T153012Z.log`.
+For example: `gh-init-nam20485-gap-miner-v2-tango57-20250724T153012Z.log`.
 
 The file is created by `Initialize-LogFile` in `.agents/skills/gh-issue-tracking-init/scripts/common.ps1`. It begins with a metadata header that records everything needed for post-execution forensics:
 

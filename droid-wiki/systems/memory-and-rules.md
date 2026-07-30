@@ -83,7 +83,7 @@ The `.agents/skills/` directory holds the `gh-issue-tracking-init` skill, the re
 ## Related pages
 
 - [Systems](index.md)
-- [agent-context overview](../overview/index.md)
+- [gap-miner-v2-tango57 overview](../overview/index.md)
 - [Features](../features/index.md)
 - [Agent definitions](../features/agent-definitions.md)
 - [Patterns and conventions](../how-to-contribute/patterns-and-conventions.md)

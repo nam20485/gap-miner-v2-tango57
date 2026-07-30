@@ -1,6 +1,6 @@
 # Fun facts
 
-A collection of interesting quirks and notable details about the `intel-agency/agent-context` repository.
+A collection of interesting quirks and notable details about the `nam20485/gap-miner-v2-tango57` repository.
 
 ## One month, zero to one hundred
 
@@ -30,7 +30,7 @@ This is a small but meaningful signal. The PowerShell scripts are either done or
 
 ## The spy-agency naming convention
 
-The repository lives under the `intel-agency` GitHub organization. The naming is a deliberate theme: the agents are framed as members of an intelligence agency. The orchestrator dispatches missions, the team-lead runs operations, the developer executes in the field, and the planner briefs on objectives.
+The repository lives under the `nam20485` GitHub organization. The naming is a deliberate theme: the agents are framed as members of an intelligence agency. The orchestrator dispatches missions, the team-lead runs operations, the developer executes in the field, and the planner briefs on objectives.
 
 This convention extends into the code. The `gh-issue-tracking-init` skill produces a "forensic log" on every run: a timestamped file that records every GitHub API operation for post-execution analysis. The skill enforces a scratch workspace directory for isolation, so each mission's artifacts do not contaminate the repo. The permission verification script is called `test-github-permissions.ps1`, as if checking credentials before an operation.
 
@@ -38,4 +38,4 @@ The theme is playful but the infrastructure is serious. The forensic logging pat
 
 ---
 
-See also: [agent-context overview](overview/index.md), [Architecture](overview/architecture.md), [Patterns and conventions](how-to-contribute/patterns-and-conventions.md), [gh-issue-tracking-init](features/gh-issue-tracking-init/index.md), [By the numbers](by-the-numbers.md), [Lore](lore.md).
+See also: [gap-miner-v2-tango57 overview](overview/index.md), [Architecture](overview/architecture.md), [Patterns and conventions](how-to-contribute/patterns-and-conventions.md), [gh-issue-tracking-init](features/gh-issue-tracking-init/index.md), [By the numbers](by-the-numbers.md), [Lore](lore.md).

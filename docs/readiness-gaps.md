@@ -1,6 +1,6 @@
 # Agent Readiness Gap Analysis
 
-**Repository:** `intel-agency/agent-context`
+**Repository:** `nam20485/gap-miner-v2-tango57`
 **Report ID:** `5a0b1d58`
 **Commit:** `e4853e8` (branch: `development`)
 **Date:** 2026-07-24

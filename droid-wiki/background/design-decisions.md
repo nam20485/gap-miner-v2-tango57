@@ -34,7 +34,7 @@ The result exceeded the target: 93.91% coverage (802 of 854 commands) across all
 
 The CI workflow uses the gitleaks binary (downloaded directly in `.github/workflows/ci.yml`) instead of the `gitleaks/gitleaks-action` GitHub Action.
 
-**Reason:** The action requires a paid `GITLEAKS_LICENSE` for organization repositories like `intel-agency`. The binary is free and functionally identical for `detect` mode. A `.gitleaks.toml` config file at the repo root allowlists the two intentional fake-secret fixtures in `AssertNoSecrets.Tests.ps1` so the scanner does not flag test data.
+**Reason:** The action requires a paid `GITLEAKS_LICENSE` for organization repositories like `nam20485`. The binary is free and functionally identical for `detect` mode. A `.gitleaks.toml` config file at the repo root allowlists the two intentional fake-secret fixtures in `AssertNoSecrets.Tests.ps1` so the scanner does not flag test data.
 
 ## Rules restructuring of local_ai_instruction_modules/
 
@@ -69,7 +69,7 @@ This repository is a GitHub template. When a downstream clone is created from it
 | Class 1 | Reusable infrastructure that travels to every clone | Skills, scripts, rules, CI config, label taxonomy |
 | Class 2 | Template-self-referential state that must be reset on clone or filtered on back-flow | Memory entries, plan docs, project-specific issue hierarchies |
 
-The full strategy is documented in `docs/plans/.deferred/template-content-strategy.md`. An analysis of the external cloning pipeline (`nam20485/workflow-launch2`) verified the model against a real clone (`intel-agency/gap-miner-v2-delta12`). The analysis found that W1 step 4 (seed plan docs) is handled by the external pipeline, but W1 step 5 (build hierarchy trigger) is broken because it dispatches the incompatible `/orchestrate-dynamic-workflow project-setup` instead of `/gh-issue-tracking-init` direct dispatch. W1 steps 1 through 3 (memory reset, clear template plans, remove foreign artifacts) are not handled and remain pending in the external `workflow-launch2` repo.
+The full strategy is documented in `docs/plans/.deferred/template-content-strategy.md`. An analysis of the external cloning pipeline (`nam20485/workflow-launch2`) verified the model against a real clone (`nam20485/gap-miner-v2-delta12`). The analysis found that W1 step 4 (seed plan docs) is handled by the external pipeline, but W1 step 5 (build hierarchy trigger) is broken because it dispatches the incompatible `/orchestrate-dynamic-workflow project-setup` instead of `/gh-issue-tracking-init` direct dispatch. W1 steps 1 through 3 (memory reset, clear template plans, remove foreign artifacts) are not handled and remain pending in the external `workflow-launch2` repo.
 
 An AGENTS.md anchor bug was also found and fixed: the cloning script targeted the anchor text `**GitHub template repo**` but the template said `**upstream GitHub template repo**`. The template AGENTS.md first sentence was reworded to contain the correct anchor so the apposition reads correctly in both template and clone contexts.
 

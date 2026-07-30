@@ -1,6 +1,6 @@
 # Background
 
-This section captures the reasoning behind the repository's shape and the traps that shaped it. The `agent-context` template did not arrive at its current form by accident: every constraint, from branch protection rules to coverage scope, was a deliberate choice made under real conditions, often after a downstream clone exposed a flaw in the previous approach.
+This section captures the reasoning behind the repository's shape and the traps that shaped it. The `gap-miner-v2-tango57` template did not arrive at its current form by accident: every constraint, from branch protection rules to coverage scope, was a deliberate choice made under real conditions, often after a downstream clone exposed a flaw in the previous approach.
 
 The pages here are for anyone who needs to understand not just *what* the repo does but *why* it does it that way, and *where* the sharp edges are.
 

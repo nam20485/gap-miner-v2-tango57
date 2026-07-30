@@ -1,6 +1,6 @@
 # Lore
 
-The story of how `intel-agency/agent-context` evolved from a single operating manual into a 100-file template repository with a tested skill, a CI pipeline, and a rules system. All dates are taken from git commit timestamps.
+The story of how `nam20485/gap-miner-v2-tango57` evolved from a single operating manual into a 100-file template repository with a tested skill, a CI pipeline, and a rules system. All dates are taken from git commit timestamps.
 
 ## Eras
 
@@ -132,4 +132,4 @@ The file count grew from a handful on day one to 100 tracked files by the final 
 
 ---
 
-See also: [agent-context overview](overview/index.md), [Architecture](overview/architecture.md), [Patterns and conventions](how-to-contribute/patterns-and-conventions.md), [gh-issue-tracking-init](features/gh-issue-tracking-init/index.md), [By the numbers](by-the-numbers.md), [Fun facts](fun-facts.md).
+See also: [gap-miner-v2-tango57 overview](overview/index.md), [Architecture](overview/architecture.md), [Patterns and conventions](how-to-contribute/patterns-and-conventions.md), [gh-issue-tracking-init](features/gh-issue-tracking-init/index.md), [By the numbers](by-the-numbers.md), [Fun facts](fun-facts.md).

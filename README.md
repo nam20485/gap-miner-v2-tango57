@@ -1,6 +1,6 @@
-# agent-context
+# gap-miner-v2-tango57
 
-This repository is the GitHub **template repo** for `intel-agency`: the substrate from which
+This repository is the GitHub **template repo** for `nam20485`: the substrate from which
 each downstream instance is cloned to house a unique application plan and develop it. Any
 other repo name is a clone instance seeded from this one.
 

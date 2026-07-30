@@ -17,5 +17,5 @@ This is a solo project. The repository has a single human contributor, `nam20485
 ## Related reading
 
 - [Configuration](reference/configuration.md) for the CODEOWNERS file and CI pipeline
-- [agent-context overview](overview/index.md) for the repository overview
+- [gap-miner-v2-tango57 overview](overview/index.md) for the repository overview
 - [Security](security.md) for how ownership and branch protection fit into the security posture

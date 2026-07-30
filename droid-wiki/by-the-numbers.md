@@ -1,6 +1,6 @@
 # By the numbers
 
-A quantitative snapshot of the `intel-agency/agent-context` repository. All data was collected on 2026-07-25 from the default branch.
+A quantitative snapshot of the `nam20485/gap-miner-v2-tango57` repository. All data was collected on 2026-07-25 from the default branch.
 
 ## Size
 
@@ -101,4 +101,4 @@ Markdown accounts for 60% of all files. This is a documentation-heavy repository
 
 ---
 
-See also: [agent-context overview](overview/index.md), [Architecture](overview/architecture.md), [Patterns and conventions](how-to-contribute/patterns-and-conventions.md), [gh-issue-tracking-init](features/gh-issue-tracking-init/index.md), [Lore](lore.md), [Fun facts](fun-facts.md).
+See also: [gap-miner-v2-tango57 overview](overview/index.md), [Architecture](overview/architecture.md), [Patterns and conventions](how-to-contribute/patterns-and-conventions.md), [gh-issue-tracking-init](features/gh-issue-tracking-init/index.md), [Lore](lore.md), [Fun facts](fun-facts.md).

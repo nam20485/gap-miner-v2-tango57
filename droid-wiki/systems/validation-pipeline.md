@@ -77,7 +77,7 @@ Both `uses:` lines in the workflow reference full 40-character commit SHAs, not 
 
 ## Why gitleaks binary instead of the action
 
-The CI workflow downloads the gitleaks binary directly rather than using `gitleaks/gitleaks-action`. The action requires a paid `GITHUB_TOKEN` with a `GITLEAKS_LICENSE` for organization repos like `intel-agency`. The binary is free and functionally identical for `detect` mode. The `.gitleaks.toml` config allowlists the two intentional fake-secret test fixtures so they do not trigger false positives.
+The CI workflow downloads the gitleaks binary directly rather than using `gitleaks/gitleaks-action`. The action requires a paid `GITHUB_TOKEN` with a `GITLEAKS_LICENSE` for organization repos like `nam20485`. The binary is free and functionally identical for `detect` mode. The `.gitleaks.toml` config allowlists the two intentional fake-secret test fixtures so they do not trigger false positives.
 
 ## Key source files
 

@@ -6,7 +6,7 @@ These are documented in the "Known limitations" and "Out of scope" sections of `
 
 ## GitHub database IDs exceed Int32.MaxValue
 
-GitHub issue database IDs have grown past `Int32.MaxValue` (2,147,483,647). The `Get-IssueDbId` function in `.agents/skills/gh-issue-tracking-init/scripts/common.ps1` casts to `[long]` instead of `[int]`, so `link-sub-issue.ps1` and `set-dependency.ps1` work against modern repos. This was fixed during a real hierarchy recovery run on `intel-agency/gap-miner-v2-oscar32` where sub-issue linking silently broke because the ID overflowed.
+GitHub issue database IDs have grown past `Int32.MaxValue` (2,147,483,647). The `Get-IssueDbId` function in `.agents/skills/gh-issue-tracking-init/scripts/common.ps1` casts to `[long]` instead of `[int]`, so `link-sub-issue.ps1` and `set-dependency.ps1` work against modern repos. This was fixed during a real hierarchy recovery run on `nam20485/gap-miner-v2-oscar32` where sub-issue linking silently broke because the ID overflowed.
 
 If you copy any of these scripts or write new ones that handle issue IDs, always use `[long]`.
 

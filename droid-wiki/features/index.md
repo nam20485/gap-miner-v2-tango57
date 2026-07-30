@@ -2,7 +2,7 @@
 
 nam20485
 
-The `agent-context` template ships three cross-cutting capabilities that downstream clones inherit and use immediately. Each one is self-contained, documented, and works without additional setup beyond the standard prerequisites (PowerShell 7+, GitHub CLI, environment variables).
+The `gap-miner-v2-tango57` template ships three cross-cutting capabilities that downstream clones inherit and use immediately. Each one is self-contained, documented, and works without additional setup beyond the standard prerequisites (PowerShell 7+, GitHub CLI, environment variables).
 
 ## What is on this page
 
@@ -42,7 +42,7 @@ The `local_ai_instruction_modules/` directory at the repo root holds two index f
 
 ## Related pages
 
-- [agent-context overview](../overview/index.md)
+- [gap-miner-v2-tango57 overview](../overview/index.md)
 - [Architecture](../overview/architecture.md)
 - [Patterns and conventions](../how-to-contribute/patterns-and-conventions.md)
 - [Memory and rules system](../systems/memory-and-rules.md)

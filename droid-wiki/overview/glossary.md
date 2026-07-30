@@ -2,8 +2,8 @@
 
 ## Template and clone
 
-- **Template repo** - This repository (`intel-agency/agent-context`). The substrate from which downstream instances are cloned.
-- **Clone instance** - A repository created from this template, seeded with a unique application plan. Any repo other than `agent-context` is a clone instance.
+- **Template repo** - This repository (`nam20485/gap-miner-v2-tango57`). The substrate from which downstream instances are cloned.
+- **Clone instance** - A repository created from this template, seeded with a unique application plan. Any repo other than `gap-miner-v2-tango57` is a clone instance.
 - **Downstream clone** - Same as clone instance. Used when describing the cloning pipeline.
 
 ## Planning hierarchy

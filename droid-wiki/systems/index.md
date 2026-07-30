@@ -2,7 +2,7 @@
 
 nam20485
 
-The `agent-context` template is built from four internal systems that work together to keep AI agents productive and consistent across downstream clones. Each system is a set of files and conventions, not a running service, and each is documented on its own page.
+The `gap-miner-v2-tango57` template is built from four internal systems that work together to keep AI agents productive and consistent across downstream clones. Each system is a set of files and conventions, not a running service, and each is documented on its own page.
 
 ## What is on this page
 
@@ -48,7 +48,7 @@ The `.agents/rules/app-stacks/` directory contains three pre-defined tech stack 
 
 ## Related pages
 
-- [agent-context overview](../overview/index.md)
+- [gap-miner-v2-tango57 overview](../overview/index.md)
 - [Architecture](../overview/architecture.md)
 - [Getting started](../overview/getting-started.md)
 - [Features](../features/index.md)

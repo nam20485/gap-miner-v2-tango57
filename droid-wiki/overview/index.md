@@ -1,6 +1,6 @@
-# agent-context overview
+# gap-miner-v2-tango57 overview
 
-`intel-agency/agent-context` is a GitHub template repository that provides the substrate for AI agent development workflows. Each downstream instance is cloned from this template to house a unique application plan and develop it using a structured, agent-driven process.
+`nam20485/gap-miner-v2-tango57` is a GitHub template repository that provides the substrate for AI agent development workflows. Each downstream instance is cloned from this template to house a unique application plan and develop it using a structured, agent-driven process.
 
 The repo ships three main things:
 

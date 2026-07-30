@@ -6,7 +6,7 @@ The repository is a template that downstream clones inherit. It has no runtime s
 
 ```mermaid
 graph TD
-    Template["agent-context<br/>(template repo)"]
+    Template["gap-miner-v2-tango57<br/>(template repo)"]
     AGENTS["AGENTS.md<br/>operating manual"]
     AgentsDir[".agents/<br/>memory + rules + skills"]
     OpenCode[".opencode/<br/>agent definitions + config"]
@@ -41,7 +41,7 @@ graph TD
 
 ```mermaid
 graph LR
-    Template["Template repo<br/>(agent-context)"]
+    Template["Template repo<br/>(gap-miner-v2-tango57)"]
     Clone["Downstream clone<br/>(unique app plan)"]
     PlanDoc["plan_docs/<br/>development plan"]
     Skill["gh-issue-tracking-init<br/>skill"]

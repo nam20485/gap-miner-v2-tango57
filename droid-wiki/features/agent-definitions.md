@@ -92,7 +92,7 @@ See [Memory and rules system](../systems/memory-and-rules.md) for how the rules 
 ## Related pages
 
 - [Features](index.md)
-- [agent-context overview](../overview/index.md)
+- [gap-miner-v2-tango57 overview](../overview/index.md)
 - [Architecture](../overview/architecture.md)
 - [Memory and rules system](../systems/memory-and-rules.md)
 - [Validation pipeline](../systems/validation-pipeline.md)
